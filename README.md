@@ -1,5 +1,6 @@
 # Depression-Analysis
 The project could be run as a notebook using jupyter or google colab
+
 Minimum System Requirements:
 8GB RAM is preferred.
 A CPU with the Advanced Vector Extensions (AVX) instruction set
