@@ -20,6 +20,8 @@ The initial steps include preprocessing the data inorder to expand contractions,
 
 Word2Vec is used to group together similar words.
 
+TF-IDF is used to find out the term frequency that depicts how important a word is in a document
+
 Different models were trained
 - A baseline model (SVC) that uses TF-IDF
 - Naive bayes classifier
