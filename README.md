@@ -23,11 +23,13 @@ Word2Vec is used to group together similar words.
 TF-IDF is used to find out the term frequency that depicts how important a word is in a document
 
 Different models were trained
+```
 - A baseline model (SVC) that uses TF-IDF
 - Naive bayes classifier
 - SGD Classifier
 - Logistic Regression Model
 - LSTM
+```
 
 A CNN+LSTM model used gave an accuracy of 99.61% . In order to determine the optimal fit, various activation functions such as sigmoid, tanh, and softmax were utilised in the hidden layers. Given that logistic regression models provide good accuracy for binary classifications, the models' accuracy is compared to that of the LRM, and the model with the highest accuracy is ultimately picked. The ReLU function, which is implemented by the majority of CNNs in their activation layer, has been applied to all models. The various models explore the various optimizers and loss functions before concluding on the top model with an accuracy of 99.61%.
 Though the baseline model gave us the same results as the LSTM, the best model is chosen as the latter as it does further weight updation and error reduction using optimizers
